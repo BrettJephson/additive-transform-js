@@ -9,7 +9,7 @@ Takes a set of CSS transform rules and applies them to a node one by one - to cr
 
 For example:
 CSS:
-'''css
+```css
 .transform-1 {
 	transform: scale(1.5, 1.5);
 }
@@ -19,11 +19,11 @@ CSS:
 .transform-3 {
 	transform: rotate(90deg);
 }
-'''
+```
 
 HTML:
-'''
+```
 <div id="test-case" class="add-transforms transform-1 transform-2 transform-3">TEST CASE</div>
-'''
+```
 
 Without the Javascript, this would result in #test-case rotating 90 degrees. With the Javascript, #test-case is scaled, translated and then rotated.
