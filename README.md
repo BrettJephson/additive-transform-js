@@ -8,6 +8,7 @@ Based on my answer to this Stackoverflow question: http://stackoverflow.com/ques
 Takes a set of CSS transform rules and applies them to a node one by one - to create complicated transforms from simple rules. Rather than the CSS default behaviour of overriding previously applied transforms.
 
 For example:
+
 CSS:
 ```css
 .transform-1 {
@@ -22,7 +23,7 @@ CSS:
 ```
 
 HTML:
-```
+```html
 <div id="test-case" class="add-transforms transform-1 transform-2 transform-3">TEST CASE</div>
 ```
 
