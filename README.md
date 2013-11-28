@@ -3,7 +3,7 @@ additive-transform-js
 
 Small Javascript utility for CSS transforms.
 
-Based on my answer to this Stackoverflow question: http://stackoverflow.com/questions/20167239/how-to-mix-css3-transform-properties-without-overriding-in-realtime/20200863/#20200863.
+Based on my answer to this Stack Overflow question: http://stackoverflow.com/questions/20167239/how-to-mix-css3-transform-properties-without-overriding-in-realtime/20200863/#20200863.
 
 Takes a set of CSS transform rules and applies them to a node one by one - to create complicated transforms from simple rules. Rather than the CSS default behaviour of overriding previously applied transforms.
 
