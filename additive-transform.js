@@ -117,7 +117,6 @@
 
         var parseTranslateToXY = function(value){
             var numericValues = value.replace( REGEXP_ALL_LETTERS_AND_BRACKETS, "").replace(/ /g, "").split(",").map(function(item){ return parseFloat(item); });
-            console.log(numericValues);
             var parsedNumericValues = [];
             for(var i=0;i<numericValues.length;++i) {
                 parsedNumericValues[parsedNumericValues.length] = parseCSSValue(value, numericValues[i], "toPixels", lengthUnitIdentifiers, isUndefined, function(value){
