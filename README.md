@@ -15,7 +15,7 @@ CSS:
 	transform: scale(1.5, 1.5);
 }
 .transform-2 {
-	transform: translate(5, 5);
+	transform: translate(5px, 5px);
 }
 .transform-3 {
 	transform: rotate(90deg);
@@ -28,3 +28,23 @@ HTML:
 ```
 
 Without the Javascript, this would result in #test-case rotating 90 degrees. With the Javascript, #test-case is scaled, translated and then rotated.
+
+To use:
+---------
+
+Simply add the script and call transform to run it:
+
+```
+<script src="additive-transform.js"></script>
+<script>
+    AdditiveTransform.transform();
+</script>
+```
+
+There is a configure function where you can change:
+* selector - default is '.add-transforms' - script looks for all instances of the selector on the page using document.querySelectorAll.
+* dataAttribute - default is 'data-transforms' - script applies all the transforms listed in this data attribute (must be a comma-separated list).
+
+```
+AdditiveTransform.configure({ selector: "#my-transform", dataAttribute: "data-my-transform-list" });
+```
