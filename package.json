@@ -1,0 +1,29 @@
+{
+  "name": "additive-transform-js",
+  "version": "1.0.0",
+  "description": "Javascript utility for composite CSS transforms",
+  "main": "additive-transform.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brejep/additive-transform-js"
+  },
+  "keywords": [
+    "Javascript",
+    "CSS",
+    "transforms"
+  ],
+  "author": "Brett Jephson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brejep/additive-transform-js/issues"
+  },
+  "homepage": "https://github.com/brejep/additive-transform-js",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "jshint-stylish": "^2.0.1"
+  }
+}
